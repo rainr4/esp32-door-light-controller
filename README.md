@@ -4,14 +4,14 @@ An ESP32-based smart lighting system that automatically controls RGBW LED strips
 
 ## Features
 
-- 🚪 **Automatic Door Detection**: Uses HC-SR04 ultrasonic sensor to detect door open/close
-- 💡 **RGBW LED Control**: Full control over SK6812 RGBW LED strips
-- 🌐 **Web Interface**: Modern, responsive web UI for configuration
-- 📱 **Live Updates**: Real-time door status and distance monitoring
-- 🔄 **WiFi Auto-Reconnect**: Automatic reconnection with visual status indicators
-- 🛠️ **OTA Updates**: Over-the-air firmware updates
-- 🎛️ **Adjustable Settings**: Configurable threshold, LED count, and colors
-- 🔧 **Noise Filtering**: Advanced signal filtering to prevent false triggers
+-**Automatic Door Detection**: Uses HC-SR04 ultrasonic sensor to detect door open/close
+-**RGBW LED Control**: Full control over SK6812 RGBW LED strips
+-**Web Interface**: Modern, responsive web UI for configuration
+-**Live Updates**: Real-time door status and distance monitoring
+-**WiFi Auto-Reconnect**: Automatic reconnection with visual status indicators
+-**OTA Updates**: Over-the-air firmware updates
+-**Adjustable Settings**: Configurable threshold, LED count, and colors
+-**Noise Filtering**: Advanced signal filtering to prevent false triggers
 
 ## Hardware Requirements
 
@@ -31,7 +31,7 @@ An ESP32-based smart lighting system that automatically controls RGBW LED strips
 | LED Strip GND | GND | Common ground |
 | LED Strip VCC | 5V | External 5V power recommended |
 
-⚠️ **Important**: For reliable operation, use a logic level shifter between ESP32 (3.3V) and SK6812 data line (5V), or use a 330Ω resistor in series with the data line.
+**Important**: For reliable operation, use a logic level shifter between ESP32 (3.3V) and SK6812 data line (5V), or use a 330Ω resistor in series with the data line.
 
 ## Software Setup
 
